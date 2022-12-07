@@ -1,7 +1,7 @@
 import JSBI from 'jsbi';
 export declare type BigintIsh = JSBI | number | string;
 export declare enum ChainId {
-    MAINNET = 43114,
+    MAINNET = 56,
     TESTNET = 97
 }
 export declare enum TradeType {
@@ -13,14 +13,14 @@ export declare enum Rounding {
     ROUND_HALF_UP = 1,
     ROUND_UP = 2
 }
-export declare const FACTORY_ADDRESS = "0xcDE3F9e6D452be6d955B1C7AaAEE3cA397EAc469";
+export declare const FACTORY_ADDRESS = "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73";
 export declare const FACTORY_ADDRESS_MAP: {
-    43114: string;
+    56: string;
     97: string;
 };
-export declare const INIT_CODE_HASH = "0x0x7a0b4f988bde481fd168883cb2996941f33d0887dc11bbb61498ae9d5e435549";
+export declare const INIT_CODE_HASH = "0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5";
 export declare const INIT_CODE_HASH_MAP: {
-    43114: string;
+    56: string;
     97: string;
 };
 export declare const MINIMUM_LIQUIDITY: JSBI;

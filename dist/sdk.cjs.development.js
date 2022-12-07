@@ -19,7 +19,7 @@ var providers = require('@ethersproject/providers');
 var _FACTORY_ADDRESS_MAP, _INIT_CODE_HASH_MAP, _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 43114] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
   ChainId[ChainId["TESTNET"] = 97] = "TESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
@@ -34,9 +34,9 @@ var _FACTORY_ADDRESS_MAP, _INIT_CODE_HASH_MAP, _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0xcDE3F9e6D452be6d955B1C7AaAEE3cA397EAc469';
+var FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73';
 var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[exports.ChainId.MAINNET] = FACTORY_ADDRESS, _FACTORY_ADDRESS_MAP[exports.ChainId.TESTNET] = '0x6725f303b657a9451d8ba641348b6761a6cc7a17', _FACTORY_ADDRESS_MAP);
-var INIT_CODE_HASH = '0x0x7a0b4f988bde481fd168883cb2996941f33d0887dc11bbb61498ae9d5e435549';
+var INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5';
 var INIT_CODE_HASH_MAP = (_INIT_CODE_HASH_MAP = {}, _INIT_CODE_HASH_MAP[exports.ChainId.MAINNET] = INIT_CODE_HASH, _INIT_CODE_HASH_MAP[exports.ChainId.TESTNET] = '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66', _INIT_CODE_HASH_MAP);
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
