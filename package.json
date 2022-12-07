@@ -1,17 +1,17 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@mkrman/sdk",
   "license": "MIT",
   "version": "2.4.5",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "description": "🛠 An SDK for building applications on top of ZSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": "https://github.com/mkrman/sdk.git",
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "zswap",
+    "avax"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
